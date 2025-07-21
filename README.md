@@ -8,7 +8,7 @@ Este projeto é um notebook Jupyter (Google Colab) que realiza uma análise expl
 
 ## Visão Geral
 
-O objetivo principal deste notebook é demonstrar como carregar dados de um arquivo CSV usando a biblioteca `pandas` no Python e realizar algumas operações iniciais de inspeção do dataset, como verificar suas dimensões, colunas e obter um resumo estatístico.
+O objetivo principal deste notebook é demonstrar como carregar dados de um arquivo CSV usando a biblioteca `pandas` no Python e realizar algumas operações iniciais de inspeção do dataset, como verificar suas dimensões, colunas, obter um resumo estatístico e adicionar colunas.
 
 ---
 
@@ -70,3 +70,7 @@ O notebook executa as seguintes etapas:
 
 4. **Resumo Estatístico**  
    Gera um resumo estatístico das colunas numéricas, incluindo contagem, média, desvio padrão, valores mínimo e máximo, e quartis (`notas.describe()`).
+
+5. **Criar novas colunas**  
+   Cria novas colunas no DataFrame.
+
