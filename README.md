@@ -71,6 +71,6 @@ O notebook executa as seguintes etapas:
 4. **Resumo Estatístico**  
    Gera um resumo estatístico das colunas numéricas, incluindo contagem, média, desvio padrão, valores mínimo e máximo, e quartis (`notas.describe()`).
 
-5. **Criar novas colunas**  
-   Cria novas colunas no DataFrame.
+5. **Incluindo novas colunas**  
+   Cria novas colunas no DataFrame do pandas (`notas [Media]`).
 
